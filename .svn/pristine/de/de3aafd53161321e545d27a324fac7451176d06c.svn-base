@@ -1,0 +1,79 @@
+<?php
+
+namespace backend\controllers;
+
+use common\models\ZyrjCard;
+use common\models\ZyrjCardSearch;
+use yii;
+
+class TicketController extends \yii\web\Controller
+{
+    public function actionList()
+    {
+        $searchModel = new ZyrjCardSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        return $this->render('list', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+
+    public function actionCreate()
+    {
+        $model = new ZyrjCard();
+        return $this->render('create', [
+            'model' => $model,
+        ]);
+        $userUUID = trim($_POST['UserID']);
+        if (strlen($userUUID) == 0) {
+            $this->error("请输入所发放的报单中心编号");
+            exit;
+        }
+        $user = M('Fck')->field('id')->where(array('user_id' => $userUUID))->find();
+        if (!$user) {
+            $this->error('会员编号不存在');
+            exit;
+        }
+        $Num = (int)$_POST['Num'];
+        for ($i = 0; $i < $Num; $i++) {
+            $card = M('card');
+            $data = array();
+            $data['bid'] = 0;
+            $data['buser_id'] = $userUUID;
+            $data['use_time'] = 0;
+            $data['c_type'] = 0;
+            $data['is_use'] = 0;
+            $card->execute('LOCK TABLE __TABLE__ WRITE');
+            $data['card_no'] = $this->buildActiveCode();
+            $data['c_time'] = time();
+            $card->add($data);
+            $card->execute('UNLOCK TABLES');
+        }
+
+        $this->_box(1, "入场券生成成功", U('activeCodeManager'), 1);
+        //后台充值增加门票记录，插入orderlist表
+        $data_p = array();
+        $data_p['userid'] = $user['id'];
+        $data_p['ordstatus'] = 12; //后台增加
+        $data_p['num'] = $Num;
+        $data_p['payment_notify_time'] = date("Y-m-d H:i:s", time());
+        $data_p['payment_type'] = '后台充值门票增加';
+        $rs_p = M('orderlist')->add($data_p);
+    }
+
+    protected function buildActiveCode()
+    {
+        $baseChar = '123456789abcdefghijkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ';
+        $bit = 8;
+        $tStr = '';
+        do {
+            $tStr = '';
+            for ($i = 0; $i < $bit; $i++) {
+                $rnd = rand(0, strlen($baseChar) - 1);
+                $tStr .= $baseChar[$rnd];
+            }
+        } while (M('Card')->field('id')->where(array('card_no' => $tStr))->find());
+        return $tStr;
+    }
+}

@@ -1,0 +1,19 @@
+<?php
+
+namespace backend\controllers;
+use backend\models\ZyrjFck;
+
+class MemberController extends \yii\web\Controller
+{
+    public function actionList()
+    {
+        $searchModel = new UserSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        return $this->render('list', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+
+}

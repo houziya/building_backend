@@ -1,0 +1,24 @@
+<?php
+
+namespace backend\controllers;
+
+use common\models\ZyrjCashSearch;
+use common\models\ZyrjFee;
+use Yii;
+
+class OrderController extends \yii\web\Controller
+{
+    public function actionBuyList()
+    {
+        $searchModel = new ZyrjCashSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        $configParams = ZyrjFee::findOne(["id"=>1]);
+        return $this->render('buy-list', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+            's12' => $configParams["s12"],
+        ]);
+    }
+
+}

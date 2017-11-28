@@ -1,0 +1,107 @@
+2017-03-16 04:16:58 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists' in D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\db\Migration.php(274): yii\db\Command->execute()
+#2 D:\xampp\htdocs\gonghui\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m130524_201442_init->up()
+#4 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#9 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#10 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#11 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#12 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\gonghui\yii(27): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32) NOT NULL,
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB' in D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\db\Migration.php(274): yii\db\Command->execute()
+#2 D:\xampp\htdocs\gonghui\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m130524_201442_init->up()
+#4 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#9 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#10 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#11 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#12 D:\xampp\htdocs\gonghui\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\gonghui\yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2017-03-16 04:16:53 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Ydz\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'YDZ-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Ydz'
+    'LOCALAPPDATA' => 'C:\\Users\\Ydz\\AppData\\Local'
+    'LOGONSERVER' => '\\\\YDZ-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Ydz\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Ydz\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Ydz-PC'
+    'USERNAME' => 'Ydz'
+    'USERPROFILE' => 'C:\\Users\\Ydz'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'PHP_SELF' => '../htdocs/gonghui/yii'
+    'SCRIPT_NAME' => '../htdocs/gonghui/yii'
+    'SCRIPT_FILENAME' => '../htdocs/gonghui/yii'
+    'PATH_TRANSLATED' => '../htdocs/gonghui/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1489634213.768
+    'REQUEST_TIME' => 1489634213
+    'argv' => [
+        0 => '../htdocs/gonghui/yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
