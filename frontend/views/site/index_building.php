@@ -11,16 +11,7 @@ use yii\captcha\Captcha;
 $this->title = '丽嘉实图实价：全新装修+地暖+新风+软水+家私全赠送 南花园,丽嘉花园二手房-北京安居客';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="appdownwrap">
-    <div class="appdown-top dl_dom_js" bagnum="b1036" data-track-soj="track_Anjuke_Prop_View_app_top">
-        <div class="desc">
-            <p>下载安居客APP</p>
-            <p class="app-name">专享11月北京特价二手房</p>
-        </div>
-        <a href="javascript:;" class="open">立即查看</a>
-    </div>
-    <i class="logo"></i>
-</div>
+
 <a href="javascript:history.back();" id="vr-back" class="goback pos_abso"></a>
 <input type="hidden" value="A1049250940" name="house-id"/>
 <input type="hidden" value="esf" name="business-id"/>
