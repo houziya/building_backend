@@ -24,13 +24,13 @@ $this->params['breadcrumbs'][] = $this->title;
                     <ul class="imglist" id="imglist">
                         <li>
                             <img class="imglazyload"
-                                 src="/frontend/web/images/l1.jpg"
+                                 src="/images/l1.jpg"
                                  data-src=""
                                  data-origin="true"/>
                         </li>
                         <li>
                             <img class="imglazyload"
-                                 src="/frontend/web/images/l2.jpg"
+                                 src="/images/l2.jpg"
                                  data-src=""
                                  data-origin="true"/>
                         </li>
