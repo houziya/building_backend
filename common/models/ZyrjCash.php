@@ -81,11 +81,19 @@ class ZyrjCash extends \yii\db\ActiveRecord
         return [
             [['uid', 'user_id', 'bid', 'b_user_id', 'sid', 's_user_id', 'rdt', 'money', 'money_two', 'is_pay', 'user_name', 'bank_name', 'bank_card', 'sellbz', 'bz', 'is_cancel', 'type', 'pdt', 'is_done', 'is_get', 'match_num', 'finish_num', 'match_id', 'money_type', 'is_out', 'lock_time', 'img', 'money_key', 'is_ts', 'ts_img', 'is_timeout'], 'required'],
             [['uid', 'rdt', 'epoint', 'is_pay', 'is_buy', 'bdt', 'ldt', 'okdt', 'is_sh', 'is_cancel', 'type', 'pdt', 'is_done', 'is_get', 'match_num', 'finish_num', 'is_out', 'lock_time', 'money_key', 'is_ts', 'is_timeout'], 'integer'],
-            [['bid', 'b_user_id', 'sid', 's_user_id', 'sellbz', 'bz'], 'string'],
+            [['b_user_id', 's_user_id', 'sellbz', 'bz'], 'string'],
             [['money', 'money_two'], 'number'],
             [['user_id', 'bank_card', 'x1', 'x2', 'x3', 'x4'], 'string', 'max' => 50],
             [['user_name', 'bank_name', 's_type', 'match_id', 'money_type', 'img', 'ts_img'], 'string', 'max' => 200],
             [['img'], 'file', 'extensions' => 'jpg, png', 'mimeTypes' => 'image/jpeg, image/png',],
+        ];
+    }
+
+    public function scenarios()
+    {
+        return [
+            'sell_insert'=>['uid', 'user_id', 'sid', 's_user_id', 'ldt', 'money', 'money_type', 'money_two', 'type', 'bz', 'x1', 'rdt', 'is_done', 'is_pay', 'is_cancel', 'bank_name', 'user_name', 'bank_card', 'epoint', 's_type', 'money_key'],//在该场景下的属性进行验证，其他场景和没有on的都不会验证
+            'buy_insert'=>['uid', 'user_id', 'bid', 'b_user_id', 'ldt', 'money', 'money_type', 'money_two', 'type', 'bz', 'x1', 'rdt', 'is_done', 'is_pay', 'is_cancel', 'bank_name', 'user_name', 'bank_card', 'epoint', 's_type', 'money_key'],//在该场景下的属性进行验证，其他场景和没有on的都不会验证
         ];
     }
 

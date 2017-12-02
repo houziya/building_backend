@@ -10,7 +10,7 @@ use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
 
-AppAsset::register($this);
+//AppAsset::register($this);
 $this->metaTags[] = "<meta name='keywords' content='河北共惠包装新产品有限公司,河北共惠,河北共惠包装产品,共惠,河北共惠包装,河北共惠纸杯,河北共惠餐巾纸,共惠包装,共惠容器,共惠餐巾纸,共惠纸杯,餐巾纸,纸杯'/>";
 $this->metaTags[] = "<meta name='description' content='河北共惠包装新产品有限公司,河北共惠,河北共惠包装产品,共惠,河北共惠包装,河北共惠纸杯,河北共惠餐巾纸,共惠包装,共惠容器,共惠餐巾纸,共惠纸杯,餐巾纸,纸杯'/>";
 ?>

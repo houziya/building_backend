@@ -10,6 +10,9 @@ return [
         'endPoint' => 'http://oss-cn-qingdao.aliyuncs.com',
         'domainHost' => 'http://imagebackend.oss-cn-qingdao.aliyuncs.com/'
     ],
+    'sms'=>[
+        'smsSign'=>'新买卖宝'
+    ],
     'mdm.admin.configs' => [
         'menuTable' => 'workspace.menu',
     ]
