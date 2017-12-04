@@ -11,8 +11,8 @@ use frontend\assets\AppAsset;
 use common\widgets\Alert;
 
 //AppAsset::register($this);
-$this->metaTags[] = "<meta name='keywords' content='承德山水御园,山水御园,承德山水御园居住小区,承德山水御园房价,山水御园房价,山水御园居住小区,御园房价,山水御园居住小区信息,承德山水'/>";
-$this->metaTags[] = "<meta name='description' content='承德山水御园,山水御园,承德山水御园居住小区,承德山水御园房价,山水御园房价,山水御园居住小区,御园房价,山水御园居住小区信息,承德山水'/>";
+$this->metaTags[] = "<meta name='keywords' content='中道山水御园独立底商,承德德铭大数据产业园,德铭大数据,承德商业街独立底商,山水御园底商,承德旺铺出售,承德山水御园,山水御园,承德山水御园居住小区,承德山水御园房价,山水御园房价,山水御园居住小区,御园房价,山水御园居住小区信息,承德山水'/>";
+$this->metaTags[] = "<meta name='description' content='中道山水御园独立底商,承德德铭大数据产业园,德铭大数据,承德商业街独立底商,山水御园底商,承德旺铺出售,承德山水御园,山水御园,承德山水御园居住小区,承德山水御园房价,山水御园房价,山水御园居住小区,御园房价,山水御园居住小区信息,承德山水'/>";
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

@@ -9,7 +9,7 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = '承德山水御园居住小区：全新装修+地暖+新风+软水+家私全赠送 御园,山水御园居住小区';
+$this->title = '承德德铭大数据产业园-核心地段 商业街独立底商 底价清盘销售 【中道·山水御园】沿街底商均价8500-12000';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
