@@ -114,35 +114,6 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
     </div>
 </div>
-<div class="seo-item">
-    <div class="bd">
-        <div class="trigger">
-            <a href="https://m.anjuke.com/bj/sale/chaoyang/">朝阳</a>
-            <a href="https://m.anjuke.com/bj/sale/haidian/">海淀</a>
-            <a href="https://m.anjuke.com/bj/sale/dongchenga/">东城</a>
-            <a href="https://m.anjuke.com/bj/sale/xicheng/">西城</a>
-            <a href="https://m.anjuke.com/bj/sale/fengtai/">丰台</a>
-            <a href="https://m.anjuke.com/bj/sale/tongzhou/">通州</a>
-            <a href="https://m.anjuke.com/bj/sale/shijingshan/">石景山</a>
-            <a href="https://m.anjuke.com/bj/sale/changping/">昌平</a>
-            <a href="https://m.anjuke.com/bj/sale/daxing/">大兴</a>
-            <a href="https://m.anjuke.com/bj/sale/shunyi/">顺义</a>
-            <a href="https://m.anjuke.com/bj/sale/fangshan/">房山</a>
-            <a href="https://m.anjuke.com/bj/sale/mentougou/">门头沟</a>
-            <a href="https://m.anjuke.com/bj/sale/miyun/">密云</a>
-            <a href="https://m.anjuke.com/bj/sale/huairou/">怀柔</a>
-            <a href="https://m.anjuke.com/bj/sale/pinggua/">平谷</a>
-            <a href="https://m.anjuke.com/bj/sale/yanqing/">延庆</a>
-            <a href="https://m.anjuke.com/bj/sale/beijingzhoubiana/">北京周边</a>
-
-        </div>
-        <div class="content">
-
-
-
-        </div>
-    </div>
-</div>
 
 <div class="footer">
     <div class="foot_icon"><i onclick="window.scrollTo(0,1)"></i></div>
