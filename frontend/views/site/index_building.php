@@ -147,18 +147,17 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="footer">
     <div class="foot_icon"><i onclick="window.scrollTo(0,1)"></i></div>
     <div class="flink">
-        <a href="https://m.anjuke.com/bj/xiaoqu/">小区大全</a><em>|</em>
-        <a href="https://m.anjuke.com/bj/sitemap/">网站地图</a><em>|</em>
-        <a href="https://m.anjuke.com/bj/propsitemap/esf/">最新房源</a><em>|</em>
-        <a rel="nofollow" href="https://m.anjuke.com/bj/caculator/" data-soj="tw_footer">房贷计算器</a><em>|</em>
-        <a rel="nofollow" href="https://m.anjuke.com/assess/form/?city_id=14" data-soj="tw_dbdh_gujia">估价</a><br/>
+        <a href="javascript:;">小区大全</a><em>|</em>
+        <a href="javascript:;">网站地图</a><em>|</em>
+        <a href="javascript:;">最新房源</a><em>|</em>
+        <a rel="nofollow" href="javascript:;" data-soj="tw_footer">房贷计算器</a><em>|</em>
+        <a rel="nofollow" href="javascript:;" data-soj="tw_dbdh_gujia">估价</a><br/>
         <a href="javascript:void(0);">手机版</a><em>|</em>
-        <a id="pcPage" href="https://beijing.anjuke.com/sale/?twe=4">电脑版</a><em>|</em>
-        <a rel="nofollow" href="//android.anjuke.com/download/anjuke/b190" id="footerApp">客户端</a>
+        <a id="pcPage" href="javascript:;">电脑版</a><em>|</em>
+        <a rel="nofollow" href="javascript:;" id="footerApp">客户端</a>
         <em>|</em>
         <!--        <a rel="nofollow" href="/feedback/">意见反馈</a><em>|</em>-->
-        <a rel="nofollow" href="/user-agreement/">免责声明</a><br>
-        <span>Copyright&nbsp;©&nbsp;2007-2017&nbsp;Anjuke.com&nbsp;沪B2-20090008</span>
+        <a rel="nofollow" href="javascript:;">免责声明</a><br>
     </div>
 </div>
 
@@ -221,7 +220,7 @@ $this->params['breadcrumbs'][] = $this->title;
         prop_id: "1049250940",
         prop_type: "1",
         owner_id: "1818705",
-        defaultimg: 'https://pages.anjukestatic.com/usersite/touch/img/global/defaultImg/big-load-img2.png',
+        defaultimg: 'javascript:;',
         area_id: "837",
         block_id: "2246",
         price: "25600000",
