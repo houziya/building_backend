@@ -59,8 +59,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="ax-txt"></div>
             <div class="article pro-detail">
                 <label><i>均价：</i><span class="price"><em>9500-11500</em></span></label>
-                <label><i>月供：</i>1172元<a href="https://m.anjuke.com/bj/caculator/?price=2560" class="i_cal"
-                                         data-soj="prop_page"></a></label>
+                <label><i>月供：</i>1172元</label>
                 <label><i>房型：</i>两室/三室</label>
                 <label><i>面积：</i>80-130平</label>
                 <label><i>朝向：</i>南北</label>
@@ -68,7 +67,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <!-- && $iswuba_comm == false 没有用了 -->
                 <label class="pro-w"><i>小区：</i>
-                    <a href="https://m.anjuke.com/bj/community/52407/" class="i_pos"
+                    <a href="javascript:;" class="i_pos"
                        data-soj="prop_list">承德山水御园居住小区<i></i>
                     </a><em></em></label>
 
@@ -143,16 +142,6 @@ $this->params['breadcrumbs'][] = $this->title;
 <script type="text/javascript" crossorigin
         src="https://include.anjukestatic.com/tw/res/20171128.953.1/b/User_Touch_Anjuke_Property_ViewRevision.js"></script>
 <script type="text/javascript">
-
-    user.touch.common.appDownloadDialog.config = {
-        'ios': 'https://itunes.apple.com/cn/app/id415606289',
-        'android': '//android.anjuke.com/download/anjuke/b679',
-        'config_pop': {"pagename": ["rent_view", "sale_view", "xinfang_view", "haiwai_view"], "limit": 5},
-        'current_page': 'sale_view',
-        'img_url': '//pages.anjukestatic.com/usersite/touch/img/appdownload/dialog/',
-        'seo_source_type': '0'
-    };
-
     user.touch.common.appDownloadV2.config = {
         'ios': 'https://itunes.apple.com/cn/app/id415606289',
         'android': '//android.anjuke.com/download/anjuke/',
