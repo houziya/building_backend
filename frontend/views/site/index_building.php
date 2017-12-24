@@ -36,25 +36,9 @@ $this->params['breadcrumbs'][] = $this->title;
                         </li>
                     </ul>
                 </div>
-                <div class="pintro">
-                    <ul class="pnav" id="pnav">
-                        <li class="focus"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
             </div>
             <div class="pro-title" data-trace="{exp_esf_page_middle_1:1}">
                 <span><?= $this->title; ?></span>
-
-                <div class="collectinfo" id="view-info-collect" type="add">
-                </div>
             </div>
             <div class="ax-txt"></div>
             <div class="article pro-detail">
