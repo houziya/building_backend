@@ -23,13 +23,13 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div id="imgwrapper" class="imgwrapper">
                     <ul class="imglist" id="imglist">
                         <li>
-                            <img class="imglazyload"
+                            <img class="imglazyload" alt="中道山水御园独立底商"
                                  src="/images/l1.jpg"
                                  data-src=""
                                  data-origin="true"/>
                         </li>
                         <li>
-                            <img class="imglazyload"
+                            <img class="imglazyload" alt="承德德铭大数据产业园"
                                  src="/images/l2.jpg"
                                  data-src=""
                                  data-origin="true"/>
