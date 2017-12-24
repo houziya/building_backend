@@ -11,13 +11,13 @@ use frontend\assets\AppAsset;
 use common\widgets\Alert;
 
 //AppAsset::register($this);
-$this->metaTags[] = "<meta name='keywords' content='中道山水御园独立底商,承德德铭大数据产业园,德铭大数据,承德商业街独立底商,山水御园底商,承德旺铺出售,承德山水御园,山水御园,承德山水御园居住小区,承德山水御园房价,山水御园房价,山水御园居住小区,御园房价,山水御园居住小区信息,承德山水'/>";
-$this->metaTags[] = "<meta name='description' content='中道山水御园独立底商,承德德铭大数据产业园,德铭大数据,承德商业街独立底商,山水御园底商,承德旺铺出售,承德山水御园,山水御园,承德山水御园居住小区,承德山水御园房价,山水御园房价,山水御园居住小区,御园房价,山水御园居住小区信息,承德山水'/>";
+$this->metaTags[] = "<meta name='keywords' content='中道山水御园独立底商,承德德铭大数据产业园,承德商业街独立底商,山水御园底商,承德旺铺出售,承德山水御园,山水御园,承德山水御园居住小区,山水御园居住小区,山水御园居住小区信息'/>";
+$this->metaTags[] = "<meta name='description' content='中道山水御园独立底商,承德德铭大数据产业园,承德商业街独立底商,山水御园底商,承德旺铺出售,承德山水御园,山水御园,承德山水御园居住小区,山水御园居住小区,山水御园居住小区信息'/>";
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
-<head data-page="Anjuke_Prop_View" data-kw="" data-ppc="/bj/prop/click/1049250940?isauction=0&referer=https://m.anjuke.com/bj/sale" data-new-ppc='{"v":"2.0","channel":7,"userId":0,"userType":0,"buid":0,"tradeType":1,"proId":1049250940,"COMMID":52407,"brokerId":1818705,"brokerType":2,"hpType":0,"entry":123}' data-soj-php="">
+<head data-page="Anjuke_Prop_View" data-kw="">
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
