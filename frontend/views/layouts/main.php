@@ -32,9 +32,9 @@ $this->metaTags[] = "<meta name='description' content='中道山水御园独立�
     <meta content="yes" name="apple-touch-fullscreen">
     <meta name="applicable-device" content="mobile">
     <meta name="location" content="province=北京;city=北京;coord=116.39985,39.912233">
-    <link rel="stylesheet" rev="stylesheet" href="https://include.anjukestatic.com/tw/res/20171128.953.1/b/User_Touch_Anjuke_Property_ViewRevision.css" type="text/css" />
-    <link rel="apple-touch-icon-precomposed"  href="//pages.anjukestatic.com/usersite/touch/img/app/144x144.png">
-    <link rel="Shortcut Icon" href="https://pages.anjukestatic.com/usersite/touch/img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" rev="stylesheet" href="/css/building/building.css" type="text/css" />
+    <link rel="apple-touch-icon-precomposed"  href="/images/144x144.png">
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon"/>
     <script type="text/javascript">
         window.APF={};
         APF.info = {
