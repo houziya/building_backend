@@ -142,27 +142,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <script type="text/javascript" crossorigin
         src="https://include.anjukestatic.com/tw/res/20171128.953.1/b/User_Touch_Anjuke_Property_ViewRevision.js"></script>
 <script type="text/javascript">
-    user.touch.common.appDownloadV2.config = {
-        'ios': 'https://itunes.apple.com/cn/app/id415606289',
-        'android': '//android.anjuke.com/download/anjuke/',
-        allow_wake: true
-    };
 
-    var backbtn00 = document.getElementById('vr-back');
-    if (!document.referrer || document.referrer.length <= 0) {
-        var url00 = window.location.href;
-        var str00 = url00.split('/sale')[0];
-        if (str00 && str00.length > 0) {
-            backbtn00.setAttribute('href', str00 + '/sale');
-            backbtn00.href = str00 + "/sale";
-        }
-    }
-    new user.touch.common.appDownloadV2({
-        'showbottombar': false,
-        'bbartxt': '专享11月北京特价二手房',
-        'bag_num': 'b560',
-        'data-track-soj': 'track_viewrevision_download_bot_bar'
-    });
     new touch.ershoufnag.ViewRevision({
         xh_city: 0,
         is_open_tw_phone_layer: true,
@@ -185,15 +165,5 @@ $this->params['breadcrumbs'][] = $this->title;
         block_id: "2246",
         price: "25600000",
         seo_source_type: "0"
-    });
-    new touch.component.module.XhPhone({
-        url: '',
-        businessId: 'esf',
-        isXh: 0,
-        tipDom: '.tip',
-        triangleDom: '.triangle',
-        select: 'a[data-tel]',
-        xhck_url: '',
-        brokerId: '1818705'
     });
 </script>
