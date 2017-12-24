@@ -115,16 +115,12 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
 </div>
 
-<script type="text/javascript">
-    window.ctid = '14';
-</script>
-
 
 <script type="text/javascript" crossorigin
-        src="//pages.anjukestatic.com/usersite/touch/js/zeptov2/zepto-1.1.3.0.min.js"></script>
-<script type="text/javascript" crossorigin src="//pages.anjukestatic.com/usersite/touch/js/swipe/swipeV2.js"></script>
+        src="/js/building/zepto-1.1.3.0.min.js"></script>
+<script type="text/javascript" crossorigin src="/js/building/swipeV2.js"></script>
 <script type="text/javascript" crossorigin
-        src="https://include.anjukestatic.com/tw/res/20171128.953.1/b/User_Touch_Anjuke_Property_ViewRevision.js"></script>
+        src="/js/building/User_Touch_Anjuke_Property_ViewRevision.js"></script>
 <script type="text/javascript">
 
     new touch.ershoufnag.ViewRevision({
