@@ -3052,3 +3052,445 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1515813371.921
     'REQUEST_TIME' => 1515813371
 ]
+2018-01-13 05:02:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/ed8593a0/fonts/glyphicons-halflings-regular.woff2".' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/ed8593a0...', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-01-13 05:02:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'als' => '0'
+    '_csrf' => '18935f4309f913d2d71c59afe63ad75683649a37de6547dd2ce940065ef82f45a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"J2xlMmsa7C5koRqDE0FiLbgBXjfx6cmr\";}'
+    'PHPSESSID' => 'd81vcmopn718cja3csh6lrst43'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_uv' => '1'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'als=0; _csrf=18935f4309f913d2d71c59afe63ad75683649a37de6547dd2ce940065ef82f45a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22J2xlMmsa7C5koRqDE0FiLbgBXjfx6cmr%22%3B%7D; PHPSESSID=d81vcmopn718cja3csh6lrst43; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_uv=1; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '60981'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/assets/ed8593a0/fonts/glyphicons-halflings-regular.woff2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/ed8593a0/fonts/glyphicons-halflings-regular.woff2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515816121.356
+    'REQUEST_TIME' => 1515816121
+]
+2018-01-13 07:32:57 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: article/building_list' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('building_list', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('article/buildin...', Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-01-13 07:32:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'als' => '0'
+    '_csrf' => '18935f4309f913d2d71c59afe63ad75683649a37de6547dd2ce940065ef82f45a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"J2xlMmsa7C5koRqDE0FiLbgBXjfx6cmr\";}'
+    'PHPSESSID' => 'd81vcmopn718cja3csh6lrst43'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '0'
+    'init_refer' => ''
+    'new_uv' => '2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'als=0; _csrf=18935f4309f913d2d71c59afe63ad75683649a37de6547dd2ce940065ef82f45a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22J2xlMmsa7C5koRqDE0FiLbgBXjfx6cmr%22%3B%7D; PHPSESSID=d81vcmopn718cja3csh6lrst43; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=0; init_refer=; new_uv=2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54862'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/article/building_list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/article/building_list'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515825177.87
+    'REQUEST_TIME' => 1515825177
+]
+2018-01-13 07:46:48 [127.0.0.1][1][d81vcmopn718cja3csh6lrst43][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Unknown scenario: default' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Model.php:350
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\db\ActiveRecord.php(564): yii\base\Model->validate(NULL)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\db\BaseActiveRecord.php(637): yii\db\ActiveRecord->update(true, NULL)
+#2 D:\xampp\htdocs\building\backend\controllers\ArticleController.php(132): yii\db\BaseActiveRecord->save()
+#3 [internal function]: backend\controllers\ArticleController->actionUpdate('31')
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('update', Array)
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('article/update', Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2018-01-13 07:46:48 [127.0.0.1][1][d81vcmopn718cja3csh6lrst43][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_POST = [
+    '_csrf' => 'aEtKVHJOeDkieTI4PyMLWF8Ifz8dHAl9LXsMPT4sH3swISwsRC0VSw=='
+    'Article' => [
+        'title' => '首页内容'
+    ]
+]
+
+$_COOKIE = [
+    'als' => '0'
+    '_csrf' => '18935f4309f913d2d71c59afe63ad75683649a37de6547dd2ce940065ef82f45a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"J2xlMmsa7C5koRqDE0FiLbgBXjfx6cmr\";}'
+    'PHPSESSID' => 'd81vcmopn718cja3csh6lrst43'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_uv' => '2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '122'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dev.admin.building.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dev.admin.building.com/article/update?id=31'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'als=0; _csrf=18935f4309f913d2d71c59afe63ad75683649a37de6547dd2ce940065ef82f45a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22J2xlMmsa7C5koRqDE0FiLbgBXjfx6cmr%22%3B%7D; PHPSESSID=d81vcmopn718cja3csh6lrst43; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_uv=2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '56610'
+    'REDIRECT_QUERY_STRING' => 'id=31'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/article/update?id=31'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=31'
+    'REQUEST_URI' => '/article/update?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826008.69
+    'REQUEST_TIME' => 1515826008
+]
+2018-01-13 07:46:53 [127.0.0.1][1][d81vcmopn718cja3csh6lrst43][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Unknown scenario: default' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Model.php:350
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\db\ActiveRecord.php(564): yii\base\Model->validate(NULL)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\db\BaseActiveRecord.php(637): yii\db\ActiveRecord->update(true, NULL)
+#2 D:\xampp\htdocs\building\backend\controllers\ArticleController.php(132): yii\db\BaseActiveRecord->save()
+#3 [internal function]: backend\controllers\ArticleController->actionUpdate('31')
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('update', Array)
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('article/update', Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2018-01-13 07:46:53 [127.0.0.1][1][d81vcmopn718cja3csh6lrst43][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_POST = [
+    '_csrf' => 'Tk5MZGp0X1UEfDQIJxksNHkNeQ8FJi4RC34KDSYWOBcWJCocXBcyJw=='
+    'Article' => [
+        'title' => '首页内容'
+    ]
+]
+
+$_COOKIE = [
+    'als' => '0'
+    '_csrf' => '18935f4309f913d2d71c59afe63ad75683649a37de6547dd2ce940065ef82f45a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"J2xlMmsa7C5koRqDE0FiLbgBXjfx6cmr\";}'
+    'PHPSESSID' => 'd81vcmopn718cja3csh6lrst43'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_uv' => '2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '122'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dev.admin.building.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dev.admin.building.com/article/update?id=31'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'als=0; _csrf=18935f4309f913d2d71c59afe63ad75683649a37de6547dd2ce940065ef82f45a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22J2xlMmsa7C5koRqDE0FiLbgBXjfx6cmr%22%3B%7D; PHPSESSID=d81vcmopn718cja3csh6lrst43; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_uv=2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '56611'
+    'REDIRECT_QUERY_STRING' => 'id=31'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/article/update?id=31'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=31'
+    'REQUEST_URI' => '/article/update?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826013.862
+    'REQUEST_TIME' => 1515826013
+]
+2018-01-13 07:47:38 [127.0.0.1][1][d81vcmopn718cja3csh6lrst43][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Unknown scenario: default' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Model.php:350
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\db\ActiveRecord.php(564): yii\base\Model->validate(NULL)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\db\BaseActiveRecord.php(637): yii\db\ActiveRecord->update(true, NULL)
+#2 D:\xampp\htdocs\building\backend\controllers\ArticleController.php(132): yii\db\BaseActiveRecord->save()
+#3 [internal function]: backend\controllers\ArticleController->actionUpdate('31')
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('update', Array)
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('article/update', Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2018-01-13 07:47:38 [127.0.0.1][1][d81vcmopn718cja3csh6lrst43][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_POST = [
+    '_csrf' => 'Z2FqempzUmEtUxIWJx4hAFAiXxEFISMlIlEsEyYRNSM/CwwCXBA/Ew=='
+    'Article' => [
+        'title' => '首页内容'
+        'content' => '<p><br/></p><p>&lt;h4&gt;核心卖点&lt;/h4&gt;&nbsp;</p><p>&nbsp; &lt;p&gt;独立底商独立底商独立底商&lt;/p&gt;&nbsp;</p><p>&nbsp; &lt;h4&gt;楼层状况&lt;/h4&gt;&nbsp;</p><p>&nbsp; &lt;p&gt;在山水御园二期高层80㎡-170㎡的空间内，布局简约而不简单，分区明确而无灰色地带，方正、紧凑、精巧，实为人居上选。 二期高层VIP贵宾卡近期全城限量发售,样板间即将华彩公开，品质御园再掀承德县购房热潮。&lt;/p&gt;&nbsp;</p><p>&nbsp; &lt;h4&gt;楼盘介绍&lt;/h4&gt;&nbsp;</p><p>&nbsp; &lt;p&gt;城心向西 百亿门户 200亿北京德铭大数据中心、10万就业华明服务外包产业园、承实学校、国际疗养中心，国家图书馆、海南航空、LG、移动、美团网、艺龙网等知名企业入驻! 金牛大道 吸金中轴 金牛环岛向南，三馆一中心、君安凯莱、第四小学、县医院，6万财富居住人群，9万日均人流，汇聚财金人气! 品牌租户 做大品牌房东 中国工商银行、中国农业银行、中国移动、中国电信、车爵士、北京大碗面等品牌火爆经营! 呷哺呷哺、西贝莜面村、永和大王全国知名餐饮意向入驻! 超大面宽 超高实得 6.9米超大面宽、97%超高得房率，石材立面，御园金牌物业，58-120平米一线临街商铺!&lt;/p&gt;&nbsp;</p><p>&nbsp; &lt;h4&gt;车库信息&lt;/h4&gt;&nbsp;</p><p>&nbsp; &lt;p&gt; 中道&amp;middot;山水御园社区!楼栋50栋，3586户，140套沿街底商，500车库，900车位!目前小区入住率百分之90以上，完全成熟居住性学区房!今年小区内车辆已突破1600辆，无处停车已经成为一个非常现实的问题，汽车作为现在生活的必需品，只会越来越多，最大的悲哀将是有车有房但没地方停车!现在小区内仅剩二百多套车库，提前入手是你必须的选择!等以后想要的时候，只能从别人手里高价购买二手的!也说明了车库不仅便利你的生活，它还能保值升值，也是自己的一份产业，和住宅享有同等产权! 车库和车一样生活必须品，中道社区底商和车库年底清盘销售，底价销售!抢购热线:18222252130 &lt;/p&gt;&nbsp;</p><p>&nbsp; &lt;h4&gt;商圈&lt;/h4&gt;&nbsp;</p><p>&nbsp; &lt;p&gt;环首都经济圈、京津冀都市圈、环渤海经济圈三大国家经济发展战略经济圈交汇区域&lt;/p&gt;&nbsp;</p><p>&nbsp; &lt;h4&gt;交通&lt;/h4&gt;&nbsp;</p><p>&nbsp; &lt;p&gt;京承、锦承2条铁路，承唐、承朝、承秦、承赤4条高速公路与在建的京沈客运专线、承德机场、张唐铁路构成了陆空立体交通体系!&lt;/p&gt;</p><p><br/></p>'
+    ]
+]
+
+$_COOKIE = [
+    'als' => '0'
+    '_csrf' => '18935f4309f913d2d71c59afe63ad75683649a37de6547dd2ce940065ef82f45a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"J2xlMmsa7C5koRqDE0FiLbgBXjfx6cmr\";}'
+    'PHPSESSID' => 'd81vcmopn718cja3csh6lrst43'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_uv' => '2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '7543'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://dev.admin.building.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dev.admin.building.com/article/update?id=31'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'als=0; _csrf=18935f4309f913d2d71c59afe63ad75683649a37de6547dd2ce940065ef82f45a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22J2xlMmsa7C5koRqDE0FiLbgBXjfx6cmr%22%3B%7D; PHPSESSID=d81vcmopn718cja3csh6lrst43; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_uv=2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '56713'
+    'REDIRECT_QUERY_STRING' => 'id=31'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/article/update?id=31'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=31'
+    'REQUEST_URI' => '/article/update?id=31'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826058.552
+    'REQUEST_TIME' => 1515826058
+]

@@ -128,9 +128,11 @@ class ArticleController extends Controller
                     $at->save();
                 }
             }
-
+            //$model = new Article(['scenario' => 'profile']);
+            $model->scenario = "profile";
             $model->save();
-            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['building_list']);
+            //return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -180,6 +182,34 @@ class ArticleController extends Controller
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
             'model' => $model
+        ]);
+    }
+
+    //楼盘文章发布
+    public function actionBuilding(){
+        $searchModel = new ArticleSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $model = new Article(['scenario' => 'profile']);
+        $param = Yii::$app->request->post();
+        if ($model->load($param)) {
+            $model->category = 3;//楼盘文章
+            $model->save();
+        }
+        return $this->render('building', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+            'model' => $model
+        ]);
+    }
+
+    public function actionBuilding_list()
+    {
+        $searchModel = new ArticleSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        return $this->render('building_list', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
         ]);
     }
 }

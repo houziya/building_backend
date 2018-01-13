@@ -58,7 +58,8 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
             <!-- 服务担保 -->
             <div class="article pro-desc pro-desc-layer">
-                <h4>核心卖点</h4>
+                <?= Html::decode($data->content);?>
+                <!--<h4>核心卖点</h4>
 
                 <p>独立底商独立底商独立底商</p>
                 <h4>楼层状况</h4>
@@ -86,7 +87,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <p>环首都经济圈、京津冀都市圈、环渤海经济圈三大国家经济发展战略经济圈交汇区域</p>
                 <h4>交通</h4>
 
-                <p>京承、锦承2条铁路，承唐、承朝、承秦、承赤4条高速公路与在建的京沈客运专线、承德机场、张唐铁路构成了陆空立体交通体系!</p>
+                <p>京承、锦承2条铁路，承唐、承朝、承秦、承赤4条高速公路与在建的京沈客运专线、承德机场、张唐铁路构成了陆空立体交通体系!</p>-->
             </div>
             <!-- 依赖足组件User_Touch_Broker_BrokerCard-->
 

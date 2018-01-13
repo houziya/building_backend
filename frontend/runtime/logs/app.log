@@ -17567,3 +17567,1212 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1515758478.696
     'REQUEST_TIME' => 1515758478
 ]
+2018-01-13 07:02:47 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/building/frontend/web/frontend/web/assets' 
+
+in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-01-13 07:02:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_uv' => '1'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_uv=1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '50951'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515823367.516
+    'REQUEST_TIME' => 1515823367
+]
+2018-01-13 07:03:09 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/building/frontend/web/frontend/web/assets' 
+
+in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-01-13 07:03:09 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '2'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=2'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '50999'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515823389.831
+    'REQUEST_TIME' => 1515823389
+]
+2018-01-13 07:55:37 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/building/frontend/web/frontend/web/assets' 
+
+in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-01-13 07:55:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_uv' => '2'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_uv=2'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '57653'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826537.453
+    'REQUEST_TIME' => 1515826537
+]
+2018-01-13 07:56:43 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'extract() expects parameter 1 to be array, object given' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php:327
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'extract() expec...', 'D:\\xampp\\htdocs...', 327, Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(327): extract('<span class="ti...', 0)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Object(backend\models\Article))
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Object(backend\models\Article), Object(frontend\controllers\SiteController))
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index_building', Object(backend\models\Article), Object(frontend\controllers\SiteController))
+#5 D:\xampp\htdocs\building\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index_building', Object(backend\models\Article))
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\building\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-01-13 07:56:42 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '57802'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826602.936
+    'REQUEST_TIME' => 1515826602
+]
+2018-01-13 07:56:43 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/building/frontend/web/frontend/web/assets' 
+
+in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\ErrorHandler.php(113): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#16 {main}
+2018-01-13 07:56:42 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '57802'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826602.936
+    'REQUEST_TIME' => 1515826602
+]
+2018-01-13 07:57:05 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'extract() expects parameter 1 to be array, object given' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php:327
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'extract() expec...', 'D:\\xampp\\htdocs...', 327, Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(327): extract('<span class="ti...', 0)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Object(backend\models\Article))
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Object(backend\models\Article), Object(frontend\controllers\SiteController))
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index_building', Object(backend\models\Article), Object(frontend\controllers\SiteController))
+#5 D:\xampp\htdocs\building\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index_building', Object(backend\models\Article))
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\building\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-01-13 07:57:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '57858'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826625.255
+    'REQUEST_TIME' => 1515826625
+]
+2018-01-13 07:57:05 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/building/frontend/web/frontend/web/assets' 
+
+in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\ErrorHandler.php(113): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#16 {main}
+2018-01-13 07:57:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '57858'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826625.255
+    'REQUEST_TIME' => 1515826625
+]
+2018-01-13 07:57:59 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: article' in D:\xampp\htdocs\building\frontend\views\site\index_building.php:61
+Stack trace:
+#0 D:\xampp\htdocs\building\frontend\views\site\index_building.php(61): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 61, Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index_building', Array, Object(frontend\controllers\SiteController))
+#5 D:\xampp\htdocs\building\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index_building', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\building\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-01-13 07:57:58 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '57966'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826678.984
+    'REQUEST_TIME' => 1515826678
+]
+2018-01-13 07:57:59 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/building/frontend/web/frontend/web/assets' 
+
+in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\ErrorHandler.php(113): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#16 {main}
+2018-01-13 07:57:58 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '57966'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826678.984
+    'REQUEST_TIME' => 1515826678
+]
+2018-01-13 07:58:21 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant content - assumed 'content'' in D:\xampp\htdocs\building\frontend\views\site\index_building.php:61
+Stack trace:
+#0 D:\xampp\htdocs\building\frontend\views\site\index_building.php(61): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\xampp\\htdocs...', 61, Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index_building', Array, Object(frontend\controllers\SiteController))
+#5 D:\xampp\htdocs\building\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index_building', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\building\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-01-13 07:58:21 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '58013'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826701.314
+    'REQUEST_TIME' => 1515826701
+]
+2018-01-13 07:58:21 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/building/frontend/web/frontend/web/assets' 
+
+in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\ErrorHandler.php(113): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#16 {main}
+2018-01-13 07:58:21 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '58013'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826701.314
+    'REQUEST_TIME' => 1515826701
+]
+2018-01-13 07:58:37 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class backend\models\Article could not be converted to string' in D:\xampp\htdocs\building\frontend\views\site\index_building.php:61
+Stack trace:
+#0 D:\xampp\htdocs\building\frontend\views\site\index_building.php(61): yii\base\ErrorHandler->handleError(4096, 'Object of class...', 'D:\\xampp\\htdocs...', 61, Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index_building', Array, Object(frontend\controllers\SiteController))
+#5 D:\xampp\htdocs\building\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index_building', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\xampp\htdocs\building\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2018-01-13 07:58:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '58048'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826717.581
+    'REQUEST_TIME' => 1515826717
+]
+2018-01-13 07:58:37 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/building/frontend/web/frontend/web/assets' 
+
+in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\ErrorHandler.php(113): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#16 {main}
+2018-01-13 07:58:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '58048'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826717.581
+    'REQUEST_TIME' => 1515826717
+]
+2018-01-13 07:58:49 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/building/frontend/web/frontend/web/assets' 
+
+in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-01-13 07:58:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '1'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=1; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '58071'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826729.74
+    'REQUEST_TIME' => 1515826729
+]
+2018-01-13 07:59:45 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/building/frontend/web/frontend/web/assets' 
+
+in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-01-13 07:59:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '0'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=0; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '58184'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826785.549
+    'REQUEST_TIME' => 1515826785
+]
+2018-01-13 08:00:32 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory does not exist: D:/xampp/htdocs/building/frontend/web/frontend/web/assets' 
+
+in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\AssetManager.php:213
+
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#3 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(605): yii\di\ServiceLocator->get('assetManager')
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\View.php(225): yii\base\Application->getAssetManager()
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Component.php(132): yii\web\View->getAssetManager()
+#9 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\panels\AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 D:\xampp\htdocs\building\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#12 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#13 D:\xampp\htdocs\building\vendor\yiisoft\yii2\log\Logger.php(177): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2018-01-13 08:00:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'YPF8827340282Jdskjhfiw_928937459182JAX666' => '223.71.234.66'
+    'uid' => 'dev5a58887344e708.37492713'
+    '_csrf-frontend' => '28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"C4PtkXiMafVDsLhJpRCfGQERXS0glDwK\";}'
+    'als' => '0'
+    '58tj_uuid' => '19ed3b7d-43f2-4370-89f4-5d728bd87239'
+    'new_session' => '0'
+    'init_refer' => ''
+    'new_uv' => '3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.www.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'YPF8827340282Jdskjhfiw_928937459182JAX666=223.71.234.66; uid=dev5a58887344e708.37492713; _csrf-frontend=28bf287f3ca87862012c7794d448e340e56e0d440b9ca26ff9c496d7d26441dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22C4PtkXiMafVDsLhJpRCfGQERXS0glDwK%22%3B%7D; als=0; 58tj_uuid=19ed3b7d-43f2-4370-89f4-5d728bd87239; new_session=0; init_refer=; new_uv=3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.www.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.www.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/frontend/web'
+    'SERVER_ADMIN' => 'www.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/frontend/web/index.php'
+    'REMOTE_PORT' => '58274'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1515826832.602
+    'REQUEST_TIME' => 1515826832
+]
