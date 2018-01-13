@@ -12,11 +12,11 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
     <?php $form = ActiveForm::begin(); ?>
     <?= $form->field($model, 'title')->textInput(['maxlength' => true]) ?>
-    <?/*= $form->field($model, 'content')->widget('common\widgets\ueditor\Ueditor',[
+    <?= $form->field($model, 'content')->widget('common\widgets\ueditor\Ueditor',[
         'options'=>[
             'initialFrameWidth' => 850,
         ]
-    ]) */?>
+    ]) ?>
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? '保存' : '更新', ['class' => $model->isNewRecord ? 'btn btn-primary' : 'btn btn-primary']) ?>
     </div>
