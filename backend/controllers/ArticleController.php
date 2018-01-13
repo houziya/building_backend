@@ -130,8 +130,10 @@ class ArticleController extends Controller
             }
             //$model = new Article(['scenario' => 'profile']);
             $model->scenario = "profile";
-            $model->save();
-            return $this->redirect(['building_list']);
+            $model->content = $param["Article"]["content"];
+            if($model->save(false)){
+                return $this->redirect(['building_list']);
+            }
             //return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
