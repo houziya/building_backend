@@ -8,6 +8,7 @@ return [
             //'password' => '308a2efa87020d75667b1696af72e086',
             'username' => 'root',
             'password' => '2EE6EA13-8D5E-4C34-8F94-CDD65B35E696',
+            'password' => '',
             'charset' => 'utf8',
         ],
         'db' => [
@@ -15,7 +16,7 @@ return [
             'dsn' => 'mysql:host=localhost;dbname=workspace',
             'username' => 'root',
             'password' => '2EE6EA13-8D5E-4C34-8F94-CDD65B35E696',
-            //'password' => '',
+            'password' => '',
             'charset' => 'utf8',
         ],
         'mailer' => [
