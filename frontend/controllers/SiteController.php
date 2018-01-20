@@ -74,6 +74,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $article = Article::findOne(["category"=>3]);
+        $article->content = str_replace("&nbsp;", "", $article->content);
         return $this->render('index_building', ["data"=>$article]);
     }
 
