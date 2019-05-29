@@ -50,7 +50,7 @@ return [
     'modules' => [
         'admin' => [
             'class' => 'mdm\admin\Module',
-            'layout' => 'left-menu',
+            //'layout' => 'left-menu',
             'controllerMap' => [
             ],
             'menus' => [
@@ -62,6 +62,9 @@ return [
                 ],
             ]
         ]
+    ],
+    "aliases" => [
+        "@mdm/admin" => "@vendor/mdmsoft/yii2-admin",
     ],
     'as access' => [
         'class' => 'mdm\admin\components\AccessControl',

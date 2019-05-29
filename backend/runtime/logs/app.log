@@ -4187,3 +4187,1135 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1515828096.531
     'REQUEST_TIME' => 1515828096
 ]
+2019-05-29 11:33:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "route/index".' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('route/index', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-05-29 11:33:10 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54025'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/route/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/route/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559122389.987
+    'REQUEST_TIME' => 1559122389
+]
+2019-05-29 11:37:46 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/admin/route".' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('web/admin/route', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-05-29 11:37:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54530'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/web/admin/route'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/admin/route'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559122666.03
+    'REQUEST_TIME' => 1559122666
+]
+2019-05-29 11:37:58 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/site/route".' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('web/site/route', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-05-29 11:37:58 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54552'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/web/site/route'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/site/route'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559122678.418
+    'REQUEST_TIME' => 1559122678
+]
+2019-05-29 11:39:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/site/route".' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('web/site/route', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-05-29 11:39:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54717'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/web/site/route'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/site/route'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559122767.858
+    'REQUEST_TIME' => 1559122767
+]
+2019-05-29 11:39:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/site/route".' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('web/site/route', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-05-29 11:39:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54718'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/web/site/route'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/site/route'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559122769.314
+    'REQUEST_TIME' => 1559122769
+]
+2019-05-29 11:39:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/site/route".' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('web/site/route', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-05-29 11:39:30 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54717'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/web/site/route'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/site/route'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559122770.316
+    'REQUEST_TIME' => 1559122770
+]
+2019-05-29 11:39:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/admin/route".' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('web/admin/route', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-05-29 11:39:39 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54742'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/web/admin/route'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/admin/route'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559122779.291
+    'REQUEST_TIME' => 1559122779
+]
+2019-05-29 11:40:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/admin/route".' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('web/admin/route', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-05-29 11:40:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54782'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/web/admin/route'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/admin/route'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559122800.587
+    'REQUEST_TIME' => 1559122800
+]
+2019-05-29 11:40:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/admin/route".' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('web/admin/route', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-05-29 11:40:03 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54783'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/web/admin/route'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/admin/route'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559122803.234
+    'REQUEST_TIME' => 1559122803
+]
+2019-05-29 14:03:48 [127.0.0.1][1][80elife1bn7iaei31s5ljqcrh2][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\xampp\htdocs\building\backend\views\site\index.php' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(backend\controllers\SiteController))
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#2 D:\xampp\htdocs\building\backend\controllers\SiteController.php(30): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\SiteController->actionIndex()
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2019-05-29 14:03:48 [127.0.0.1][1][80elife1bn7iaei31s5ljqcrh2][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dev.admin.building.com/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54288'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559131428.449
+    'REQUEST_TIME' => 1559131428
+]
+2019-05-29 14:03:53 [127.0.0.1][1][80elife1bn7iaei31s5ljqcrh2][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\xampp\htdocs\building\backend\views\site\index.php' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(backend\controllers\SiteController))
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#2 D:\xampp\htdocs\building\backend\controllers\SiteController.php(30): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\SiteController->actionIndex()
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2019-05-29 14:03:52 [127.0.0.1][1][80elife1bn7iaei31s5ljqcrh2][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '54289'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559131432.941
+    'REQUEST_TIME' => 1559131432
+]
+2019-05-29 14:24:37 [127.0.0.1][1][80elife1bn7iaei31s5ljqcrh2][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\xampp\htdocs\building\backend\views\site\index.php' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(backend\controllers\SiteController))
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#2 D:\xampp\htdocs\building\backend\controllers\SiteController.php(30): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\SiteController->actionIndex()
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2019-05-29 14:24:36 [127.0.0.1][1][80elife1bn7iaei31s5ljqcrh2][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '56810'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559132676.887
+    'REQUEST_TIME' => 1559132676
+]
+2019-05-29 14:24:39 [127.0.0.1][1][80elife1bn7iaei31s5ljqcrh2][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\xampp\htdocs\building\backend\views\site\index.php' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(backend\controllers\SiteController))
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(backend\controllers\SiteController))
+#2 D:\xampp\htdocs\building\backend\controllers\SiteController.php(30): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\SiteController->actionIndex()
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2019-05-29 14:24:39 [127.0.0.1][1][80elife1bn7iaei31s5ljqcrh2][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '80elife1bn7iaei31s5ljqcrh2'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=80elife1bn7iaei31s5ljqcrh2; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '56811'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559132679.424
+    'REQUEST_TIME' => 1559132679
+]
+2019-05-29 14:29:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/register.html' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('register.html', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/register.h...', Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-05-29 14:29:13 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '1iqgafgbl77r323n56bqpe7ki7'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dev.admin.building.com/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=1iqgafgbl77r323n56bqpe7ki7'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '57590'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/site/register.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/register.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559132953.476
+    'REQUEST_TIME' => 1559132953
+]
+2019-05-29 14:41:48 [127.0.0.1][1][1j273tl7g1o3rej6hq25o437m7][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: D:\xampp\htdocs\building\vendor\mdmsoft\yii2-admin\views\layouts\left.php' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(mdm\admin\controllers\RouteController))
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<h1>\xE8\xB7\xAF\xE7\x94\xB1\xE5\x88\x97\xE8\xA1...')
+#2 D:\xampp\htdocs\building\vendor\mdmsoft\yii2-admin\controllers\RouteController.php(39): yii\base\Controller->render('index', Array)
+#3 [internal function]: mdm\admin\controllers\RouteController->actionIndex()
+#4 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/route', Array)
+#8 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2019-05-29 14:41:47 [127.0.0.1][1][1j273tl7g1o3rej6hq25o437m7][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '1j273tl7g1o3rej6hq25o437m7'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=1j273tl7g1o3rej6hq25o437m7; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '59983'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/admin/route'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/route'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559133707.891
+    'REQUEST_TIME' => 1559133707
+]
+2019-05-29 15:05:57 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: user/' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#1 D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user', Array)
+#2 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\xampp\htdocs\building\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\building\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\building\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-05-29 15:05:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh\";}'
+    'PHPSESSID' => '1j273tl7g1o3rej6hq25o437m7'
+    '_identity' => '9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.admin.building.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://dev.admin.building.com/ticket/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=80c7b487cb16aa9a54558bc8f461c4e6e85b29aa289876e7e8cf7ee6e5917131a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22us5vAnxk4EQ9Ytyhs1fpQZiviyJoe0sh%22%3B%7D; PHPSESSID=1j273tl7g1o3rej6hq25o437m7; _identity=9ef19cc1e25aed394f2929932728a78296f6c34677374d5d8d8c2883017d9982a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'E:\\haozusoft\\python3\\Scripts\\;E:\\haozusoft\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Microsoft Network Monitor 3\\;D:\\xampp\\php;D:\\composer;D:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at dev.admin.building.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'dev.admin.building.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/building/backend/web'
+    'SERVER_ADMIN' => 'admin.building.com'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/building/backend/web/index.php'
+    'REMOTE_PORT' => '64533'
+    'REDIRECT_URL' => 'http://dev.admin.building.com/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1559135157.906
+    'REQUEST_TIME' => 1559135157
+]
